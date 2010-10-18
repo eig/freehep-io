@@ -1,4 +1,5 @@
 // Copyright 2001, FreeHEP.
+// Modified by The MathWorks, Oct. 2010
 package org.freehep.util.io;
 
 import java.io.IOException;
@@ -18,6 +19,7 @@ import java.util.List;
  * 
  * @author Mark Donszelmann
  * @author Ian Graham - added popBufferBytes() for use by CGMOutputStream
+ * @author Peter Webb (for The MathWorks) - fix writeSingleByte() infinite loop
  * @version $Id: src/main/java/org/freehep/util/io/ByteCountOutputStream.java
  *          96b41b903496 2005/11/21 19:50:18 duns $
  */

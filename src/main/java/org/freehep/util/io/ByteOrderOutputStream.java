@@ -1,4 +1,5 @@
 // Copyright 2001-2005, FreeHEP.
+// Modified by The MathWorks, Oct. 2010
 package org.freehep.util.io;
 
 import java.io.DataOutput;
@@ -11,6 +12,7 @@ import java.io.UTFDataFormatException;
  * 
  * @author Mark Donszelmann
  * @author Charles Loomis
+ * @author Peter Webb (for The MathWorks) - fix writeSingleByte() infinite loop
  * @version $Id: src/main/java/org/freehep/util/io/ByteOrderOutputStream.java
  *          96b41b903496 2005/11/21 19:50:18 duns $
  */
